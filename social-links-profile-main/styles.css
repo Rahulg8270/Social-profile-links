@@ -14,7 +14,7 @@ body{
     font-size: 14px;
 }
 .container{
-    width: 384px;
+    width: 24rem;
     background-color: hsl(0, 0%, 12%);
     text-align: center;
     padding: 24px;
@@ -54,11 +54,17 @@ header{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 12%);
 }
+.links a:focus{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
 .profile-pic{
     width: 88px;
     height: 88px;
     border-radius: 50%;
     align-self: center;
+    object-fit: cover;
+    object-position: center;
 }
 .bio{
     font-weight: 400;
