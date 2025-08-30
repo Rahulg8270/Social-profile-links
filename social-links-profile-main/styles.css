@@ -42,13 +42,18 @@ header{
     gap: 16px;
     
 }
-.links a{
+.links li{
+    list-style: none;
+}
+.links li a{
+    display: inline-block;
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 20%);
     padding: 16px;
     text-decoration: none;
     font-weight: 700;
     border-radius: 10px;
+    width: 100%;
 }
 .links a:hover{
     background-color: hsl(75, 94%, 57%);
