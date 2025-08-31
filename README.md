@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Rahulg8270/Social-profile-links)
-- Live Site URL: [Vercel](https://social-profile-links-nu.vercel.app/)
+- Live Site URL: [Vercel](https://social-profile-links-vfk1.vercel.app/)
 
 ## My process
 
