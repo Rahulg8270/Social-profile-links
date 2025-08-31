@@ -1,3 +1,7 @@
+:root{
+    --primary-green:hsl(75, 94%, 57%);
+    --pure-white: hsl(0, 0%, 100%);
+}
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +9,7 @@
 }
 body{
     background-color: hsl(0, 0%, 8%);
-    color: hsl(0, 0%, 100%);
+    color: var(--pure-white);
     margin: 0;
     min-height: 100vh;
     font-family: "Inter", sans-serif;
@@ -39,7 +43,7 @@ header{
 }
 .description{
     font-weight: 600;
-    color: hsl(75, 94%, 57%);
+    color: var(--primary-green);
     font-size: 1.125rem;
 }
 .links{
@@ -53,7 +57,7 @@ header{
 }
 .links li a{
     display: inline-block;
-    color: hsl(0, 0%, 100%);
+    color: var(--pure-white);
     background-color: hsl(0, 0%, 20%);
     padding: 1rem;
     text-decoration: none;
@@ -62,11 +66,11 @@ header{
     width: 100%;
 }
 .links a:hover{
-    background-color: hsl(75, 94%, 57%);
+    background-color: var(--primary-green);
     color: hsl(0, 0%, 12%);
 }
 .links a:focus{
-    background-color: hsl(75, 94%, 57%);
+    background-color: var(--primary-green);
     color: hsl(0, 0%, 12%);
 }
 .profile-pic{
